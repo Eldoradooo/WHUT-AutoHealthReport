@@ -1,8 +1,8 @@
-import os
 import requests
 import smtplib
 from email.mime.text import MIMEText
 from email.utils import formataddr
+import os
 
 MAIL_ENABLE = os.environ['MAIL_ENABLE']
 MAIL_HOST = os.environ['MAIL_HOST']

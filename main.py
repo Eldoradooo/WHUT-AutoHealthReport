@@ -1,6 +1,6 @@
-import os
 from health_report import report
 from notification import msg
+import os
 
 StuID = os.environ['STUID']
 PW = os.environ['PW']
