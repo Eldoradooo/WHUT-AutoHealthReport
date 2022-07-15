@@ -26,3 +26,12 @@ jobs:
       run: pip install requests
     - name: Auto-report
       run: python main.py
+env:
+        STUID: ${{ secrets.STUID }}
+        PW: ${{ secrets.PW }}
+        MAIL_ENABLE: ${{ secrets.MAIL_ENABLE }}
+        MAIL_SENDER: ${{ secrets.MAIL_SENDER }}
+        MAIL_ACCOUNT: ${{ secrets.MAIL_ACCOUNT }}
+        MAIL_PW: ${{ secrets.MAIL_PW }}
+        MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
+        MAIL_HOST: ${{ secrets.MAIL_HOST }}
