@@ -25,8 +25,7 @@ jobs:
     - name: Install dependencies
       run: pip install requests
     - name: Auto-report
-      run: python main.py
-env:
+      env:
         STUID: ${{ secrets.STUID }}
         PW: ${{ secrets.PW }}
         MAIL_ENABLE: ${{ secrets.MAIL_ENABLE }}
@@ -35,3 +34,4 @@ env:
         MAIL_PW: ${{ secrets.MAIL_PW }}
         MAIL_RECEIVER: ${{ secrets.MAIL_RECEIVER }}
         MAIL_HOST: ${{ secrets.MAIL_HOST }}
+      run: python main.py
