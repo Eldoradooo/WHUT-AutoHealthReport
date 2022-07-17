@@ -31,6 +31,7 @@ def msg(text):
     if cqhttp:
         send_cqhttp(text)
     if mail:
+        message("发送邮件")
         send_mail(text)
 
 
