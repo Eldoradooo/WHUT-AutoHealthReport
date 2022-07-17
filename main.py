@@ -2,12 +2,12 @@ from health_report import report
 from notification import msg
 import os
 
-StuID = os.environ['STUID']
+STUID = os.environ['STUID']
 PW = os.environ['PW']
 
 # 在此填写账号密码，账号通常为学号，密码通常为身份证后6位，可添加更多用户。注意：需要解绑微信
 user_list = [
-    {"account": "StuID", "password": "PW"},
+    {"account": "SID", "password": "PW"},
     # {"account": "", "password": ""},
     # {"account": "", "password": ""},
     # {"account": "", "password": ""},
