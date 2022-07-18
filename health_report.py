@@ -169,10 +169,12 @@ def report(account, password):
             status = False
     finally:
         status &= cancel_bind()
-        print(log)
+#        print(log)
     if status:
+        print("填报成功")
         return f"【健康填报】" \
                f"{account} 填报成功！\n"
     else:
+        print("填报失败")
         return f"【健康填报】" \
                f"{account} 填报失败，详细日志：\n" + log
