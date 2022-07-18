@@ -19,12 +19,12 @@ gid = ""  # 收信群号，不填则不发送
 # ===== 邮件设置 =====
 mail = MAIL_ENABLE  # 是否启用邮件
 ssl = True  # 是否启用SSL
-host = "MAIL_HOST"  # SMTP服务器地址（如smtp.qq.com）
+host = MAIL_HOST  # SMTP服务器地址（如smtp.qq.com）
 port = 465  # 输入SMTP服务器端口（如465）
-account = "MAIL_ACCOUNT"  # 发信账号
-password = "MAIL_PW"  # 发信密码
-sender = "MAIL_SENDER"  # 发信人邮箱
-receiver = "MAIL_RECEIVER"  # 收信人邮箱
+account = MAIL_ACCOUNT  # 发信账号
+password = MAIL_PW  # 发信密码
+sender = MAIL_SENDER  # 发信人邮箱
+receiver = MAIL_RECEIVER  # 收信人邮箱
 
 
 def msg(text):
