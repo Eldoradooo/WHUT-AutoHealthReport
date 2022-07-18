@@ -56,7 +56,7 @@ def send_mail(text):
         server = smtplib.SMTP(host, port)
     server.login(sender, password)
     mail_msg = MIMEText(text, "plain", "utf-8")
-    mail_msg["From"] = formataddr(["WHUT-AutoHealthReport", sender])
+    mail_msg["From"] = formataddr(["Github Action", sender])
     mail_msg["Subject"] = "【WHUT-AutoHealthReport】"
     server.sendmail(sender, receiver, mail_msg.as_string())
     server.close()
