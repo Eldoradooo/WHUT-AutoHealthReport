@@ -47,6 +47,6 @@ PS:仅适配了邮件发送、单人填报，且由于GitHub Action的定时功�
 
 程序流程借鉴 [xiaozhangtongx/WHUT-JKRBTB](https://github.com/xiaozhangtongx/WHUT-JKRBTB)，
 因学校给每次的请求都进行了base64编码，因此该程序已经失效。
-后作者ChrisKimZHT（https://github.com/ChrisKimZHT/WHUT-AutoHealthReport）重新抓包重构了该程序，
+后作者[ChrisKimZHT](https://github.com/ChrisKimZHT/WHUT-AutoHealthReport)重新抓包重构了该程序，
 本人仅在此基础上添加了研究生填报功能并于此添加Action自动运行功能，
 特此鸣谢。
