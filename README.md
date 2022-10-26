@@ -9,7 +9,7 @@
 
 配置完成后，可通过 crontab 等手段定时运行 `main.py`，即可每日自动填报。
 
-现支持利用GitHub Action功能完成定时自动填报**（可能有封号风险，不建议）**，
+现支持利用GitHub Action功能完成定时自动填报(**可能有封号风险，不建议**)，
 只需Fork到自己仓库并在Security中添加对应secrets即可，添加secret方法如下图。
 
 ![image](https://user-images.githubusercontent.com/109326501/197983479-7e175420-e69d-49cf-a7ea-670d6f460937.png)
